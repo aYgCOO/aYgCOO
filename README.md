@@ -1,10 +1,13 @@
-- 👋 Hi, I’m Ayanabha Chatterjee
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include <iostream>
+using namespace std;
 
-<!---
-aYgCOO/aYgCOO is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+int main()
+{
+    int num1,num2;
+    cout<<"Enter the value of num1:. ";
+    cin>>num1;
+    cout<<"Enter the value of num2:. ";
+    cin>>num2;
+    cout<<"The sum is"<< num1+num2;
+    return 0;
+}
